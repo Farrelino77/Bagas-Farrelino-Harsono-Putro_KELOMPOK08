@@ -33,7 +33,7 @@ def jalankan_kuis(kuis_list):
         jawaban_pengguna = input("Jawaban: ")
         if kuis.periksa_jawaban(jawaban_pengguna):
             skor += 1
-    time.sleep(2)
+    time.sleep(3)
     print("Skor Anda:", skor, "dari", len(kuis_list))
 
 # daftar pertanyaan dan jawaban kuis
@@ -83,6 +83,6 @@ time.sleep(3)
 kuis_list = [kuis1, kuis2, kuis3, kuis4, kuis5, kuis6, kuis7, kuis8, kuis9, kuis10]
 jalankan_kuis(kuis_list)
 
-time.sleep(2)
+time.sleep(3)
 
 print("Quiz telah selesai. \nTerimakasih atas partisipasinya.")
