@@ -36,7 +36,7 @@ def jalankan_kuis(kuis_list):
     time.sleep(2)
     print("Skor Anda:", skor, "dari", len(kuis_list))
 
-# List pertanyaan dan jawaban kuis
+# daftar pertanyaan dan jawaban kuis
 pertanyaan_list = [
     "1. Ibu Kota Jerman",
     "2. Ibu Kota Perancis",
