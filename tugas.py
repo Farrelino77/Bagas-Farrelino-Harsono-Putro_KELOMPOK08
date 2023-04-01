@@ -80,7 +80,10 @@ nama = input("Masukkan nama Anda: ")
 print(f"Halo {nama}! Anda berada dalam Quiz Tebak Ibu Kota Negara di Eropa. \nMohon tunggu selama 3 detik untuk mulai mengerjakan.\n")
 
 time.sleep(3)
+
 kuis_list = [kuis1, kuis2, kuis3, kuis4, kuis5, kuis6, kuis7, kuis8, kuis9, kuis10]
 jalankan_kuis(kuis_list)
+
 time.sleep(2)
+
 print("Quiz telah selesai. \nTerimakasih atas partisipasinya.")
