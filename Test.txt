@@ -4,11 +4,11 @@
 •	Selanjutnya, untuk memunculkan pertanyaan pada layar, definisikan self parameter non-return type yang berisi pendefinisian method tampilkan_pertanyaan dengan parameter self yang kemudian dideklarasikan menggunakan print().
 •	Untuk mengecek jawaban yang dimasukkan user, deklarasikan return type berparameter yang mendefinisikan periksa_jawaban(self, jawaban_pengguna) dengan menggunakan pengkondisian if else. Kemudian, jawaban yang dimasukkan user akan dikonversi menjadi huruf kecil dengan lower() lalu dicek kebenaran nilainya. Jika benar, tampilkan BENAR! Dan return nilai true. Jika salah, program menampilkan SALAH! Dan me-return false.
 •	Bagian berikutnya adalah membuat function. Pertama definisikan function jalankan_kuis(kuis_list):. Kedua, masukkan variabel skor dengan angka 0. Lalu menggunakan perulangan for, kuis yang berada dalam kuis list dengan memanggil method tampilkan_pertanyaan dan panggil method jawaban_pengguna yang bisa di-input¬ jawabannya oleh user. Menggunakan if, skor akan bertambah 1 apabila jawaban yang dimasukkan user bernilai sama dengan jawaban_list.
-•	Kemudian, didalam function jalankan_kuis tersebut juga dimasukkan time.sleep(2)yang digunakan untuk menghentikan program selama 2 detik lalu baru program kembali berjalan untuk melakukan print() yang memunculkan hasil skor kuis terhadap jumlah kuis_list.
+•	Kemudian, didalam function jalankan_kuis tersebut juga dimasukkan time.sleep(3)yang digunakan untuk menghentikan program selama 3 detik lalu baru program kembali berjalan untuk melakukan print() yang memunculkan hasil skor kuis terhadap jumlah kuis_list.
 •	Selanjutnya membuat list pertanyaan yang akan menjadi bagian utama dalam program. Setelahnya, buat pula list jawaban untuk pertanyaan-pertanyaan yang sudah dibuat.
 •	Selanjutnya, membuat 10 object dari class Kuis dengan menggunakan indeks agar bisa memanggil list.
 •	Selanjutnya untuk membuat program utama, buat variabel nama untuk meng-input nama dari user. Selanjutnya variabel tersebut dieksekusi dengan menggunakan print(f). 
 •	untuk menjeda program selama tiga detik, digunakan time.sleep(3)
 •	Lalu memanggil method dan function berupa kuis_list dan jalankan_kuis ke dalam program utama.
-•	Gunakan lagi time.sleep(2) untuk menjeda program selama 2 detik.
+•	Gunakan lagi time.sleep(3) untuk menjeda program selama 3 detik.
 •	Di akhir, print penutup dari program.
