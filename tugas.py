@@ -74,7 +74,7 @@ kuis8 = Kuis(pertanyaan_list[7], jawaban_list[7])
 kuis9 = Kuis(pertanyaan_list[8], jawaban_list[8])
 kuis10 = Kuis(pertanyaan_list[9], jawaban_list[9])
 
-# Menjalankan kuis
+# Menjalankan program kuis
 nama = input("Masukkan nama Anda: ")
 print(f"Halo {nama}! Anda berada dalam Quiz Tebak Ibu Kota Negara di Eropa. \nMohon tunggu selama 3 detik untuk mulai mengerjakan.\n")
 
